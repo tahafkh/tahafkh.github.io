@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-# About me
-
 I am Mohammad Taha Fakharian.
