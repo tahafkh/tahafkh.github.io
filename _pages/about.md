@@ -17,4 +17,8 @@ My research interests lie at the intersection of machine learning and neuroscien
 
 ## What are my other interests?
 
+<<<<<<< HEAD
 I have always been interested in football. I've been a huge fan of football since childhood. I like playing games and musical instruments too. I also enjoy reading books and watching movies in my free time. 
+=======
+I have always been interested in football. I've been a huge fan of football since childhood. I like playing games and musical instruments too.
+>>>>>>> 3bee90a (Fix some bugs)
