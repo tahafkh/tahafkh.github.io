@@ -11,4 +11,4 @@ redirect_from:
 
 ## Download
 
-To Download my official transcript, click [here](/files/transcript.pdf).
+To download my official transcript, click [here](/files/transcript.pdf).
