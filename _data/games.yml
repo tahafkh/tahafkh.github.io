@@ -1,0 +1,30 @@
+# Games I like — rendered by _pages/games.md
+#
+# Each entry:
+#   name:         (required) the game's title
+#   note:         (optional) one line in your own words
+#   platform:     (optional) short tag — "PC", "PS2", "Switch", "arcade", ...
+#   year:         (optional) release year, or the year you played it
+#   steam_appid:  (optional) Steam app ID — the number in the store URL,
+#                 e.g. store.steampowered.com/app/1245620/ -> 1245620
+#                 When present, the cover art is pulled free from Steam's CDN;
+#                 no API key, no image files to keep in the repo.
+#   cover:        (optional) use INSTEAD of steam_appid for non-Steam games —
+#                 a path under assets/img/, e.g. assets/img/games/my_game.jpg
+#   url:          (optional) makes the card clickable
+#
+# Example of the shape — delete these and add your own:
+#
+# - name: Disco Elysium
+#   platform: PC
+#   year: 2019
+#   steam_appid: 632470
+#   note: The only RPG where the antagonist is your own reasoning.
+#
+# - name: Shadow of the Colossus
+#   platform: PS2
+#   year: 2005
+#   cover: assets/img/games/shadow_of_the_colossus.jpg
+#   note: Sixteen fights, no filler. Still the cleanest thing anyone has built.
+
+games: []

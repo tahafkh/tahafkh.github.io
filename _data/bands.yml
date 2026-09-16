@@ -1,0 +1,23 @@
+# Bands I like — rendered by _pages/bands.md
+#
+# Each entry:
+#   name:    (required) the band's name
+#   note:    (optional) one line in your own words — why this one, what it's for
+#   genre:   (optional) short tag shown under the name
+#   url:     (optional) Spotify / Bandcamp / official site; makes the card clickable
+#   since:   (optional) year or era you got into them
+#
+# Example of the shape — delete these two and add your own:
+#
+# - name: Pink Floyd
+#   genre: prog rock
+#   note: The record I put on when an analysis isn't going anywhere.
+#   url: https://open.spotify.com/artist/0k17h0D3J5VfsdmQ1iZtE9
+#   since: 2016
+#
+# - name: Godspeed You! Black Emperor
+#   genre: post-rock
+#   note: Twenty-minute build-ups that make writing feel cinematic.
+#   url: https://open.spotify.com/artist/2Z7UvfHyAFAuXvJh5kEd1A
+
+bands: []

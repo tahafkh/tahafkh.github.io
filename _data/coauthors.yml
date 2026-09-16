@@ -1,34 +1,27 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"behrad":
+  - firstname: ["Arman", "A."]
+    url: https://scholar.google.com/citations?user=Ig3BHKEAAAAJ
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"ostrow":
+  - firstname: ["Mitchell", "M."]
+    url: https://mitchellostrow.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"fiete":
+  - firstname: ["Ila", "I.", "Ila R."]
+    url: https://fietelab.mit.edu/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"beste":
+  - firstname: ["Christian", "C."]
+    url: https://www.cognitive-neurophysiology.de/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"safavi":
+  - firstname: ["Shervin", "S."]
+    url: https://shervinsafavi.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"ghalambor":
+  - firstname: ["Alireza", "A."]
+    url: https://scholar.google.com/citations?user=0xXbiLAAAAAJ
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"zeraati":
+  - firstname: ["Roxana", "R."]
+    url: https://roxanazeraati.org/

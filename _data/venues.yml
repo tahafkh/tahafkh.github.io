@@ -1,9 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"CCN":
+  url: https://2025.ccneuro.org/
+  color: "#0b6e4f"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"preprint":
+  url: https://arxiv.org/
+  color: "#b31b1b"

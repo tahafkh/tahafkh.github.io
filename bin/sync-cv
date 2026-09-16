@@ -1,0 +1,62 @@
+#!/usr/bin/env bash
+#
+# Regenerate _data/cv.yml from the Overleaf LaTeX CV — locally, on your machine,
+# using the Overleaf credentials your git client already has.
+#
+# This exists instead of a GitHub Actions job on purpose. An Overleaf Git token
+# grants read AND write access to *every* project on your account, and this
+# repository is public; keeping that credential off GitHub entirely is worth
+# more than a nightly cron for a document that changes a few times a year.
+#
+# Usage:
+#   bin/sync-cv              # defaults to ../cv
+#   bin/sync-cv ~/path/to/cv
+#   CV_REPO=~/path/to/cv bin/sync-cv
+#   bin/sync-cv --no-pull    # skip the Overleaf fetch, use the local checkout
+#
+set -euo pipefail
+
+cd "$(dirname "$0")/.."
+
+PULL=1
+CV_REPO="${CV_REPO:-../cv}"
+for arg in "$@"; do
+  case "$arg" in
+    --no-pull) PULL=0 ;;
+    -h | --help)
+      sed -n '2,20p' "$0" | sed 's/^# \{0,1\}//'
+      exit 0
+      ;;
+    *) CV_REPO="$arg" ;;
+  esac
+done
+
+if [ ! -f "$CV_REPO/cv.tex" ]; then
+  echo "error: no cv.tex in '$CV_REPO' — that is not an Awesome-CV project." >&2
+  echo "       pass the path explicitly: bin/sync-cv ~/path/to/cv" >&2
+  exit 1
+fi
+
+if [ "$PULL" -eq 1 ] && [ -d "$CV_REPO/.git" ]; then
+  echo "==> Fetching latest from Overleaf"
+  if ! git -C "$CV_REPO" pull --ff-only; then
+    echo
+    echo "WARNING: could not pull from Overleaf. Falling back to the checkout" >&2
+    echo "         already on disk, which may be out of date." >&2
+    echo
+  fi
+fi
+
+echo "==> Regenerating _data/cv.yml"
+python3 bin/cv_from_latex.py "$CV_REPO" -o _data/cv.yml
+
+echo
+if git diff --quiet -- _data/cv.yml; then
+  echo "_data/cv.yml is already up to date. Nothing to commit."
+else
+  echo "==> Changes to _data/cv.yml"
+  git --no-pager diff --stat -- _data/cv.yml
+  echo
+  echo "Review with:  git diff _data/cv.yml"
+  echo "Then:         git commit -am 'chore: sync CV from Overleaf' && git push"
+fi

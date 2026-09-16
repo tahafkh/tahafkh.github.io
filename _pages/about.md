@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. student, <a href="https://oist.mlds.jp/">Machine Learning and Data Science Unit</a> · <a href="https://www.oist.jp/">OIST</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Okinawa Institute of Science<br>and Technology (OIST)</p>
+    <p>1919-1 Tancha, Onna-son<br>Okinawa 904-0495, Japan</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +26,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Ph.D. student at [OIST](https://www.oist.jp/), in the [Machine Learning and Data Science Unit](https://oist.mlds.jp/) under [Prof. Makoto Yamada](https://www.oist.jp/research/research-units/mlds/makoto-yamada), co-supervised by [Prof. Kenji Doya](https://www.oist.jp/research/research-units/ncu/kenji-doya) of the [Neural Computation Unit](https://www.oist.jp/research/research-units/ncu).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I want to understand how a system that only ever sees sensory data ends up with knowledge that transfers — how brains do it, and why our models so often don't. That question keeps pulling me back to **neural representations**: the geometry a network settles into, and what that geometry commits the system to once the data runs out.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Lately I've been circling a more specific version of it. Curiosity-driven world models treat surprise as the learning signal, and the [free-energy](https://www.nature.com/articles/nrn2787) framing gives that signal a clean objective — but surprise and _learnable_ surprise are not the same quantity, and conflating them is what strands an agent in front of a noisy screen or in a dark room. Two recent ideas sharpen the distinction: [**epiplexity**](https://arxiv.org/abs/2601.03220), which asks what a computationally bounded observer can actually extract from data, and [**learnable novelty**](https://arxiv.org/abs/2607.18433), which isolates the fraction of novelty a learner can convert into knowledge. Set beside Wilson's argument that generalization is governed by [**soft inductive biases**](https://arxiv.org/abs/2503.02113) rather than hard constraints, the question I'd like to answer is: _given a learnable-novelty signal and a particular soft bias, which world model does the agent end up with?_ Not whether it learns, but what it learns.
+
+Before OIST I did three rotations here — spiking basal-ganglia models of dopamine and temporal-difference learning with [Prof. Doya](https://www.oist.jp/research/research-units/ncu/kenji-doya), short-term plasticity and temporal associative memory with [Prof. Tomoki Fukai](https://www.oist.jp/research/research-units/ncbc/tomoki-fukai), and an evolutionary-developmental extension of curiosity-driven robot learning with [Prof. Jun Tani](https://www.oist.jp/research/research-units/cnru/jun-tani). Before that I worked with [Prof. Shervin Safavi](https://shervinsafavi.github.io/cmclab/) on how RNN architecture shapes internal dynamics, wrote a B.Sc. thesis on delay learning in spiking networks with [Prof. Mohammadreza Abolghasemi](https://profile.ut.ac.ir/en/~dehaqani) and [Prof. Timothée Masquelier](https://cerco.cnrs.fr/pagesp/tim/index.lab.htm), and spent a year as a data scientist at [Tapsi](https://tapsi.ir/en) helping start its data-science team.
+
+Away from the desk: football, far too much of it. Also [bands](/bands/) and [games](/games/), and currently a losing battle with _Genki I_.

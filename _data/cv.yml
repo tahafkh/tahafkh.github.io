@@ -1,189 +1,267 @@
+# GENERATED FILE - DO NOT EDIT BY HAND.
+#
+# Rebuilt from the Awesome-CV LaTeX project on Overleaf by
+# bin/cv_from_latex.py -- run `bin/sync-cv` after editing on Overleaf.
+# Edit the CV on Overleaf; this file follows.
+# Exceptions, preserved across regeneration: summary, image, address.
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
+  name: Mohammad Taha Fakharian
+  label: Ph.D. Student
+  email: mohammad.fakharian@oist.jp
+  location: Okinawa Institute of Science and Technology Graduate University (OIST), Onna, Okinawa, Japan
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: tahafkh
     - network: LinkedIn
-      username: example
-
+      username: mohammad-taha-fakharian
+    - network: X
+      username: TheSTraveller
+    - network: Google Scholar
+      username: 66E4yUIAAAAJ
+  summary: Ph.D. student at OIST working at the intersection of computational neuroscience and machine learning, on how learning systems build world models from sensory data and what makes those models generalize.
+  image: ""
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
-
+    street: 1919-1 Tancha
+    city: Onna-son
+    region: Okinawa
+    postalCode: 904-0495
+    countryCode: JP
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: "[Okinawa Institute of Science and Technology Graduate University (OIST)](https://www.oist.jp/)"
+        location: Onna, Okinawa, Japan
+        studyType: Ph.D. Program
+        start_date: 2025-09
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+          - "**Thesis Research Unit:** [Machine Learning and Data Science Unit](https://oist.mlds.jp/)"
+          - "**Supervisor:** [Prof. Makoto Yamada](https://www.oist.jp/research/research-units/mlds/makoto-yamada); **Co-supervisor:** [Prof. Kenji Doya](https://www.oist.jp/research/research-units/ncu/kenji-doya) (Neural Computation Unit)"
+          - "**Selected Coursework:** [Dynamical Systems](https://www.oist.jp/course/b49), [Cognitive Neurorobotics](https://www.oist.jp/course/a313), [Sensory Systems](https://www.oist.jp/course/a312), [Nonlinear Time Series Analysis and Manifold Learning](https://www.oist.jp/course/a111)"
+      - institution: "[School of Electrical and Computer Engineering, University of Tehran](https://ece.ut.ac.ir/en/)"
+        location: Tehran, Iran
+        studyType: B.Sc. in Computer Engineering
+        start_date: 2019-09
+        end_date: 2024-07
         highlights:
-          - Description 1.
-          - Description 2.
-
+          - "**GPA: 19.47/20 (4.0/4.0)**, Faculty Average: 15.01/20"
+          - '**B.Sc. Thesis:** "Using Spiking Neural Network Structures for Representing Audio and Image Feature Spaces"'
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
-
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
+      - company: "[Cognitive Neurorobotics Research Unit](https://www.oist.jp/research/research-units/cnru), OIST"
+        position: Ph.D. Research Rotation — [Prof. Jun Tani](https://www.oist.jp/research/research-units/cnru/jun-tani)
+        start_date: 2026-05
+        end_date: 2026-08
+        summary: Developed a reproducible evolutionary-developmental extension of [_Curiosity-driven development of action and language in robots through self-exploration_ (Tinker, Doya, and Tani, 2026)](https://www.science.org/doi/10.1126/sciadv.aee7533), evolving a compact meta-controller to regulate exploration and lifetime learning.
+      - company: "[Neural Coding and Brain Computing Unit](https://www.oist.jp/research/research-units/ncbc), OIST"
+        position: Ph.D. Research Rotation — [Prof. Tomoki Fukai](https://www.oist.jp/research/research-units/ncbc/tomoki-fukai)
+        start_date: 2026-01
+        end_date: 2026-04
+        summary: Investigated how short-term synaptic plasticity and recurrent connectivity support dynamic persistent activity and temporal associative-memory sequences, extending [_Theory of Coupled Neuronal–Synaptic Dynamics_ (Clark and Abbott, 2024)](https://doi.org/10.1103/PhysRevX.14.021001) and [_Extended Temporal Association Memory by Modulations of Inhibitory Circuits_ (Haga and Fukai, 2019)](https://doi.org/10.1103/PhysRevLett.123.078101) in rate and spiking-network simulations.
+      - company: "[Neural Computation Unit](https://www.oist.jp/research/research-units/ncu), OIST"
+        position: Ph.D. Research Rotation — [Prof. Kenji Doya](https://www.oist.jp/research/research-units/ncu/kenji-doya)
+        start_date: 2025-09
+        end_date: 2025-12
+        summary: Developed a spiking basal-ganglia model of dopamine-modulated plasticity to study synaptic credit assignment and circuit-level temporal-difference learning, building on [_A Hardwired Neural Circuit for Temporal-Difference Learning_ (Campbell et al., 2025)](https://doi.org/10.1101/2025.09.18.677203); presented this work at the [Winter Workshop 2026 on Mechanism of Brain and Mind](https://brainmind.jnns.org/en/wt2026/).
+      - company: "[Computational Machinery of Cognition Lab, TU Dresden](https://shervinsafavi.github.io/cmclab/)"
+        position: Research Assistant — [Prof. Shervin Safavi](https://www.digs-bb.de/research/research-groups/shervin-safavi)
+        start_date: 2024-07
+        end_date: 2025-07
+        summary: Investigated how recurrent neural network architectures shape internal dynamics across cognitive tasks from the [NeuroGym](https://github.com/neurogym/neurogym) library. Trained recurrent models with different architectures and compared their state-space dynamics using empirical dynamic modeling (EDM), methods based on the generalized Takens theorem, and [dynamical similarity analysis (DSA)](https://github.com/mitchellostrow/DSA).
+      - company: "[Goodhill Lab](https://www.goodhill.org/), Washington University in St. Louis"
+        position: Remote Research Collaborator — [Prof. Geoffrey Goodhill](https://neuroscience.wustl.edu/people/geoffrey-goodhill-phd/) and Daniel Zavitz
+        start_date: "2025"
+        end_date: "2025"
+        summary: Investigated how excitatory–inhibitory imbalance in recurrent-network models can inform computational accounts of psychiatric disorders. Admitted to Washington University's Systems Science and Mathematics Ph.D. program to join the lab; enrollment was precluded by the [June 2025 U.S. visa suspension](https://travel.state.gov/content/travel/en/News/visas-news/suspension-of-visa-issuance-to-foreign-nationals-to-protect-the-united-states-from-foreign-terrorists-and-other-national-security-and-public-safety-threats.html).
+      - company: "[Convergent Technologies Research Institute, University of Tehran](https://nbic.ut.ac.ir/) / [CNRS](https://cerco.cnrs.fr/)"
+        position: B.Sc. Thesis Researcher — [Prof. Mohammadreza Abolghasemi](https://profile.ut.ac.ir/en/~dehaqani); co-supervised by [Prof. Timothée Masquelier](https://cerco.cnrs.fr/pagesp/tim/index.lab.htm)
+        start_date: 2023-09
+        end_date: 2024-06
+        summary: Investigated delay learning in convolutional spiking neural networks using surrogate-gradient learning. Implemented learnable axonal, dendritic, and synaptic delays using [dilated convolution with learnable spacings (DCLS)](https://github.com/K-H-Ismail/Dilated-Convolution-with-Learnable-Spacings-PyTorch) in ResNet-18-based spiking architectures for event-based datasets. Implemented selected components using Numba CUDA to gain hands-on experience with GPU programming and custom CUDA kernels.
+      - company: "[School of Electrical and Computer Engineering, University of Tehran](https://ece.ut.ac.ir/en/ece)"
+        position: Research Assistant — [Prof. Azadeh Shakery](https://profile.ut.ac.ir/en/~shakery)
+        start_date: 2022-07
+        end_date: 2022-12
+        summary: Investigated graph-based approaches to hate-speech detection, with the goal of explicitly exploiting structural relationships between tokens rather than relying solely on sequence modeling with transformer architectures. Applied graph convolutional neural networks to text representations, and explored hybrid approaches combining graph-based modeling with BERT.
+      - company: "[Tapsi](https://tapsi.ir/en)"
+        position: Data Scientist
+        location: Tehran, Iran
+        start_date: 2023-03
+        end_date: 2024-01
+        summary: Helped establish a new data science team, applying deep-learning and generative-AI methods to improve customer experience on an online ride-hailing platform. Designed and implemented scalable recommender-system solutions for Tapsi's products.
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Fast Dynamical Similarity Analysis
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+          - A. Behrad
+          - M. Ostrow
+          - "**MT. Fakharian**"
+          - I. Fiete
+          - C. Beste
+          - S. Safavi
+        publisher: arXiv preprint arXiv:2511.22828. Under journal review
+        releaseDate: "2025"
+        url: https://arxiv.org/abs/2511.22828
+      - title: Heterogeneous Effect of Input and Task-optimization on the Dynamics of RNNs
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
+          - "**MT. Fakharian**"
+          - A. Ghalambor
+          - A. Behrad
+          - R. Zeraati
+          - S. Safavi
+        publisher: Cognitive Computational Neuroscience (CCN) 2025. *Equal contribution
+        releaseDate: "2025"
+        url: https://2025.ccneuro.org/abstract_pdf/Fakharian_2025_Heterogeneous_Effect_Input_Task-optimization_Dynamics_Recurrent.pdf
+    Talks:
+      - company: "[Machine Learning Summer School (MLSS) 2027](https://oist.github.io/mlss2027okinawa/)"
+        position: Selected Participant & Presenter (Upcoming)
+        location: OIST, Onna, Japan
+        start_date: 2027-03
+        end_date: 2027-03
+        summary: Scheduled to present ongoing work on inductive biases and learning signals in world models.
+      - company: "[Cognition, Anatomy and Neural Networks Research Group](https://www.tcd.ie/research/profiles/?profile=sfroudis)"
+        position: Invited Journal Club Presenter
+        location: Virtual
+        start_date: 2025-06
+        end_date: 2025-06
+        summary: Presented an intuition-focused discussion of Sakana AI's [_Continuous Thought Machines_](https://arxiv.org/abs/2505.05522) and its connections to [cortically embedded recurrent neural networks](https://2025.ccneuro.org/abstract_pdf/Sevenster_2025_Cortically-Embedded_RNNs_integration_cortex-wide_neuroscience_data.pdf). [Slides](https://docs.google.com/presentation/d/e/2PACX-1vRNwzXxpiE4M4fKGPyVPr3YTJQrPHnnq9taZ5oy8EreQ15_2pkCjjw6zc4ax7s-c7RDRbOALHOpYCpI/pub?start=false&loop=false&delayms=3000)
+      - company: "[Gatsby Computational Neuroscience Unit, University College London](https://www.ucl.ac.uk/life-sciences/gatsby)"
+        position: Ph.D. Selection Process
+        location: Virtual
+        start_date: 2025-01
+        end_date: 2025-02
+        summary: Selected among approximately 40 candidates for the first-round interview and advanced to the faculty-presentation stage. Delivered an interview talk and technical assessment (mathematical PCA/SVD explanation; two-part problem during and after the interview), followed by a faculty talk on spiking neural networks and temporal feature learning from my B.Sc. thesis. [Interview Slides](https://docs.google.com/presentation/d/e/2PACX-1vRvNJocLB5HKSZMRxLyxKKVeKtFeL4do2MbLZ97JD0O-j53jkMQ_zCULsTCAwwC9xjRY6QJKN5moMkQ/pub?start=false\&loop=false\&delayms=3000); [Faculty Slides](https://docs.google.com/presentation/d/e/2PACX-1vSdN7AxCqCfHVyU6doB5F7HOEXLWxXVqXwyDRh4-Ih2fgc1fLJmM2IE54oFswDkHjgp-V5VeDoU8V4V/pub?start=false\&loop=false\&delayms=3000)
+    Awards:
+      - title: "[CCN 2025 Travel Award ($500)](https://drive.google.com/file/d/1Ss78JnpSzyoujFWKYeA7dixdmJAfR1Yo/view?usp=sharing)"
+        date: "2025"
+        awarder: "[Cognitive Computational Neuroscience Conference](https://2025.ccneuro.org/)"
+        location: Amsterdam, Netherlands
+      - title: "[Best data analysis project](https://drive.google.com/file/d/1by8q7j_CtWgrDgnzkCsSsvYn5PsepWVu/view?usp=sharing)"
+        date: "2024"
+        awarder: "[BR41N.IO Hackathon](https://www.br41n.io/Spring-School-2024)"
+        location: g.tec Spring School
+      - title: Ranked 1st among bachelor students of the Computer Engineering
+        date: "2024"
+        awarder: University of Tehran
+        location: Tehran, Iran
+      - title: Ranked 96 (Top 0.1%) in National University Entrance Exam
+        date: "2019"
+        awarder: National Organization of Educational Testing (NOET)
+        location: Tehran, Iran
+      - title: Received scholarship
+        date: "2019"
+        awarder: Supporter Foundation of the University of Tehran
+        location: Tehran, Iran
+    Service:
+      - company: "[OIST Neuroscience Symposium 2026](https://www.oist.jp/events/call-registration-oist-neuroscience-symposium-2026)"
+        position: Organizing Committee Member
+        location: OIST Neuroscience Club
+        start_date: "2026"
+        end_date: "2026"
+        summary: Co-organizing an interdisciplinary OIST symposium spanning molecular, physiological, and computational neuroscience.
+      - company: "[32nd International Conference on Neural Information Processing (ICONIP 2025)](https://iconip2025.apnns.org/)"
+        position: Talk Organization Support
+        location: OIST
+        start_date: 2025-11
+        end_date: 2025-11
+        summary: Supported the organization and coordination of conference talks.
+    Teaching:
+      - company: Summer of Code
+        position: "[Artificial Intelligence and Deep Learning Course Mentor](https://drive.google.com/file/d/1QxlcsPxltN44Vf8c04zXYhy3CNJlSBwQ/view?usp=sharing)"
+        location: University of Tehran
+        start_date: 2022-07
+        end_date: 2022-09
+      - company: "[Introduction to Data Science](https://github.com/DataScience-ECE-UniversityOfTehran/DataScience-Spring2024), [Prof. B. Bahrak](https://teias.institute/~bahrak/), [Prof. Y. Yaghoobzadeh](https://yyaghoobzadeh.github.io/)"
+        position: Head Teaching Assistant
+        location: University of Tehran
+        start_date: 2024-02
+        end_date: 2024-06
+      - company: Software Engineering, [Prof. R. Khosravi](https://ece.ut.ac.ir/en/~r.khosravi)
+        position: Teaching Assistant
+        location: University of Tehran
+        start_date: 2024-02
+        end_date: 2024-06
+      - company: Artificial Intelligence, [Prof. Y. Yaghoobzadeh](https://yyaghoobzadeh.github.io/), [H. Fadaei](https://scholar.google.com/citations?user=zdY-omQAAAAJ)
+        position: Head Teaching Assistant
+        location: University of Tehran
+        start_date: 2023-09
+        end_date: 2023-12
+      - company: Advanced Programming, [Prof. R. Khosravi](https://ece.ut.ac.ir/en/~r.khosravi)
+        position: Head Teaching Assistant
+        location: University of Tehran
+        start_date: 2022-09
+        end_date: 2023-06
+      - company: Engineering Probability and Statistics, [Prof. B. Bahrak](https://teias.institute/~bahrak/)
+        position: Supervising Teaching Assistant
+        location: University of Tehran
+        start_date: 2022-09
+        end_date: 2022-12
+      - company: Discrete Mathematics, [Prof. S. Mohammadi](https://ece.ut.ac.ir/en/~smohamadi)
+        position: Teaching Assistant
+        location: University of Tehran
+        start_date: 2021-02
+        end_date: 2022-06
+      - company: Operating Systems, [Prof. M. Kargahi](https://ece.ut.ac.ir/en/~kargahi)
+        position: Teaching Assistant
+        location: University of Tehran
+        start_date: 2022-09
+        end_date: 2023-12
+      - company: Formal Languages and Automata Theory, [Prof. H. Hojjat](https://teias.institute/~hojjat/)
+        position: Teaching Assistant
+        location: University of Tehran
+        start_date: 2021-09
+        end_date: 2022-06
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "[Dynamical RNNs](https://github.com/tahafkh/dynamical-rnns) — Cognitive Neurorobotics Project"
+        summary: Built a from-scratch, Numba-accelerated Elman RNN with backpropagation through time, sequence-specific learnable initial states, and SGD/Adam optimization. Analyzed the resulting hidden-state dynamics and attractor structure.
+      - name: "[Crystalline](https://github.com/Crystaline-Coin/crystaline) — Decentralized File-Storage Cryptocurrency"
+        summary: Developed a Python proof of concept for a peer-to-peer, incentive-backed file-storage network. Implemented the blockchain, transaction and signature validation, node networking, fee calculation, tests, and a hybrid Proof-of-Work/redefined Proof-of-Activity consensus mechanism.
+      - name: "[Oak](https://github.com/noushkia/Oak) — Marketplace Platform Backend"
+        summary: Built and Dockerized a Java/Spring backend for an Amazon-style marketplace. Developed REST APIs for users, providers, commodities, ratings, comments, search, sorting, pagination, and recommendations; implemented JWT-protected authentication and GitHub OAuth sign-in.
+      - name: "[Smart Pot](https://github.com/noushkia/Smart-Pot) — Automated Plant-Watering System"
+        summary: "Built a three-controller Arduino/C++ system: a sensor board measures temperature and soil moisture, a master board applies the irrigation policy and displays measurements, and an actuator board drives the water pump by PWM. The controllers exchange data over Bluetooth serial communication."
+      - name: "[xv6 Kernel](https://gitlab.com/btk-os) — Extended xv6 Teaching Kernel (Five OS-Lab Projects)"
+        summary: Progressively extended a fork of MIT's xv6 with shell line-editing and shortcuts; custom process and filesystem system calls; a multi-level scheduler (round-robin, LCFS, and modified HRRN) with aging; semaphore synchronization; and `mmap` with demand paging, page-fault handling, and `fork` support.
+      - name: "[Socket Server](https://github.com/tahafkh/Socket-Server) — TCP Socket Servers Suite"
+        summary: Implemented FTP, HTTP, and multi-user chat servers in C++ using low-level TCP sockets. Built FTP command/data channels with authentication and file upload/download, HTTP request parsing and routing for static/binary content, and chat-session and messaging workflows.
+    Certificates:
+      - name: "[NeuroAI](https://portal.neuromatchacademy.org/certificate/d5ba21cb-ec0f-4183-b152-f4f9090e6ad0)"
+        date: 2024-07
+        issuer: Neuromatch Academy
+      - name: "[Game Theory](https://www.coursera.org/account/accomplishments/certificate/FARJCC5ZBR5Z)"
+        date: 2023-08
+        issuer: Standford University, The University of British Columbia (Coursera)
+      - name: "[Machine Learning Engineering for Production (MLOps) Specialization](https://www.coursera.org/account/accomplishments/specialization/VVKWAVGHNLDB)"
+        date: 2022-08
+        issuer: DeepLearning.AI (Coursera)
+      - name: "[Natural Language Processing Specialization](https://www.coursera.org/account/accomplishments/specialization/3WLJG87GNUT3)"
+        date: 2022-07
+        issuer: DeepLearning.AI (Coursera)
+      - name: "[Generative Adversarial Networks (GANs) Specialization](https://www.coursera.org/account/accomplishments/specialization/GDHUZ5XYGFVH)"
+        date: 2022-05
+        issuer: DeepLearning.AI (Coursera)
+      - name: "[Deep Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/TFDB7G4A94TX)"
+        date: 2022-02
+        issuer: DeepLearning.AI (Coursera)
+      - name: "[Machine Learning](https://www.coursera.org/account/accomplishments/verify/EX8LXWX5UECM)"
+        date: 2022-02
+        issuer: Stanford University (Coursera)
+      - name: "[Reinforcement Learning Specialization](https://www.coursera.org/account/accomplishments/specialization/JZSEY7WFLPK9)"
+        date: 2022-02
+        issuer: University of Alberta (Coursera)
+    Skills:
+      - name: Programming
+        keywords: "Advanced: Python, C++ Working knowledge: C, CUDA C++, Java, JavaScript, Bash, LaTeX Familiar: Lua"
+      - name: Machine Learning & Scientific Computing
+        keywords: PyTorch, JAX, NumPy, pandas, scikit-learn, TensorFlow, Keras, PySpark
+      - name: Research & Development Tools
+        keywords: Git, Docker, Jupyter, Linux, Maven, Django, Spring
+      - name: Agentic Workflows
+        keywords: LLM-assisted research and software development; tool-using agents, codebase analysis, and experiment automation
+    Languages:
+      - name: Persian
+        summary: Native
+      - name: English
+        summary: "Professional working proficiency **Academic IELTS: 7.5/9 [R:8.5, L:8.5, S:6.5, W:6.5] (Oct. 2023)**"
+      - name: Japanese
+        summary: Beginner — currently studying _Genki I_ at OIST
+    Interests:
+      - name: Research
+        keywords: NeuroAI, Computational Neuroscience, Continual Learning, World Models, Dynamical Systems
