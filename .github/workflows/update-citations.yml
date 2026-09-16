@@ -7,6 +7,10 @@ on:
     - cron: "0 0 * * 5" # Friday
   workflow_dispatch:
 
+permissions:
+  contents: write
+  actions: write # so this job can kick off deploy.yml afterwards
+
 jobs:
   update-citations:
     runs-on: ubuntu-latest
@@ -92,10 +96,23 @@ jobs:
           echo "🔧 Git configured."
 
       - name: Commit and push if changed
+        id: push
         run: |
           git add _data/citations.yml
-          git diff --staged --quiet || (
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
             echo "📤 Committing and pushing changes..."
             git commit -m "Update Google Scholar citations"
             git push
-          )
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Trigger a site rebuild 🚀
+        # A push made with GITHUB_TOKEN does not itself start another workflow,
+        # so deploy.yml has to be dispatched explicitly. This is the no-PAT
+        # alternative to the token setup described in docs/CUSTOMIZE.md.
+        if: steps.push.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}"
