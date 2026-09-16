@@ -39,7 +39,7 @@ on:
       - ".github/workflows/unit-tests.yml"
 
 jobs:
-  comments-integration-tests:
+  integration-tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
@@ -66,6 +66,11 @@ jobs:
       - name: Install JS deps 📦
         run: npm ci
 
+      # NOTE: the comments, distill and new-plugins integration tests are not run
+      # here. They assert against al-folio's demo posts (giscus-comments,
+      # disqus-comments, distill, rtl, marimo), which this site deleted. The
+      # scripts stay on disk because test/style_contract.js requires them to
+      # exist. The four below test config and plugin wiring, not demo content.
       - name: Run style contract lint 🧷
         run: npm run lint:style-contract
 
@@ -74,14 +79,8 @@ jobs:
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
 
-      - name: Run comments integration test 🧪
-        run: bash test/integration_comments.sh
-
       - name: Run plugin toggle integration test 🔌
         run: bash test/integration_plugin_toggles.sh
-
-      - name: Run distill integration test 📄
-        run: bash test/integration_distill.sh
 
       - name: Run bootstrap compatibility integration test 🧩
         run: bash test/integration_bootstrap_compat.sh
@@ -91,6 +90,3 @@ jobs:
 
       - name: Run CSS minify integration test 🎨
         run: bash test/integration_css_minify.sh
-
-      - name: Run new plugin integration checks 🧩
-        run: bash test/integration_new_plugins.sh
